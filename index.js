@@ -3,7 +3,8 @@ const { Telegraf } = require("telegraf");
 const axios = require("axios").default;
 
 // const { createRecipe } = require("./gpt");
-const { createChar } = require("./gemini");
+// const { createChar } = require("./gemini");
+const { createChar } = require("./llama");
 
 // Require dotenv and execute it
 require("dotenv").config();
